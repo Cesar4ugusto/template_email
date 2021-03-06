@@ -21,14 +21,14 @@ Veja no arquivo `index.php` que a importação do template é feita no seguinte 
 $template = file_get_contents('../template_email.html');
 ```
 
-- Primeiro defina uma variável para a importação.
+- Primeiro crie uma variável para a importação.
 - Após, importe o arquivo no diretório que ele está.
 
 ```sh
 $mail->Body = $template; 
 ```
 
-- Depois de importado defina o template como corpo do email e está pronto.
+- Depois de importado configure o template como corpo do email e está pronto.
 
 ## Características
 
