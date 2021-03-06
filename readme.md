@@ -7,7 +7,7 @@
 Sou estudante de Análise e Desenvolvimento de Sistemas focado no desenvolvimentode soluções web Front-End e Back-End.
 
 ## Este projeto
-Tem como finalidade ajudar desenvolvedores no envio de email atravez da funcionalidade do PHP, o [`PHPMailer`]. Conta também com um template de email configurado para ser enviado como corpo do projeto.
+Tem como propósito ajudar desenvolvedores no envio de email atravez da funcionalidade do PHP, o [`PHPMailer`]. Conta também com um template de email configurado para ser enviado como corpo do projeto.
 
 Neste projeto a instalação do [`PHPMailer`] foi feita via [Composer](https://getcomposer.org).
 
