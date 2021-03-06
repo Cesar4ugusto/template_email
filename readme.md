@@ -7,15 +7,15 @@
 Sou estudante de Análise e Desenvolvimento de Sistemas focado no desenvolvimentode soluções web Front-End e Back-End.
 
 ## Este projeto
-Tem como propósito ajudar desenvolvedores no envio de email atravez da funcionalidade do PHP, o [`PHPMailer`]. Conta também com um template de email configurado para ser enviado como corpo do projeto.
+Tem como propósito ajudar desenvolvedores no envio de email atravez da funcionalidade do PHP, o `PHPMailer`. Conta também com um template de email configurado para ser enviado como corpo do projeto.
 
-Neste projeto a instalação do [`PHPMailer`] foi feita via [Composer](https://getcomposer.org).
+Neste projeto a instalação do `PHPMailer` foi feita via [Composer](https://getcomposer.org).
 
-Para usar o [`PHPMailer`] siga as instruções de intalação disponibilizadas em [PHPMailer](https://github.com/PHPMailer/PHPMailer).
+Para usar o `PHPMailer` siga as instruções de intalação disponibilizadas em [PHPMailer](https://github.com/PHPMailer/PHPMailer).
 
 ## Observação
 
-Veja no arquivo [`index.php`] que a importação do template é feita no seguinte código:
+Veja no arquivo `index.php` que a importação do template é feita no seguinte código:
 
 ```sh
 $template = file_get_contents('../template_email.html');
