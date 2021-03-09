@@ -17,14 +17,14 @@ Para usar o `PHPMailer` siga as instruções de intalação disponibilizadas em 
 
 Veja no arquivo `index.php` que a importação do template é feita no seguinte código:
 
-```sh
+```php
 $template = file_get_contents('../template_email.html');
 ```
 
 - Primeiro crie uma variável para a importação.
 - Após, importe o arquivo no diretório que ele está.
 
-```sh
+```php
 $mail->Body = $template; 
 ```
 
